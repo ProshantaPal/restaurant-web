@@ -1,0 +1,50 @@
+.address-container .address-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 15px;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 1px 2px 2px 1px gray;
+}
+
+.date-time span i{
+    font-size: 40px;
+    margin-left: 45%;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #F48F28;
+    color: white;
+}
+
+.location span i{
+    font-size: 40px;
+    margin-left: 45%;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #F48F28;
+    color: white;
+}
+
+.number span i{
+    font-size: 40px;
+    margin-left: 45%;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #F48F28;
+    color: white;
+}
+
+.address-info .date-time h4{
+    margin-bottom: 10px;
+}
+
+.address-info .location h4{
+    margin-bottom: 10px;
+}
+
+.address-info .number h4{
+    margin-bottom: 10px;
+}

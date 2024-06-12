@@ -1,0 +1,174 @@
+
+.delivery-container{
+    display: flex;
+}
+
+.delivery-items{
+    display: flex;
+    background-color: #F5DDC4;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px 15px;
+}
+
+.delivery-items h3{
+    color: #F48E28;
+    align-items: center;
+}
+
+.delivery-items img{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.banner-items{
+    display: flex;
+}
+
+.banner-title{
+    width: 50%;
+    margin: 10px 15px;
+}
+
+.banner-title h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.banner-title p{
+    font-size: 15px;
+    margin: 20px 0px;
+}
+
+.banner-title button{
+    margin-right: 20px;
+}
+
+#now-btn{
+    background-color: #F1A04F;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+#process-btn{
+    background-color: white;
+    border: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.banner-title button i{
+    font-size: 30px;
+    color: #F48E28;
+    margin-right: 15px;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 6px 5px 5px 2px gray;
+}
+
+.banner-img{
+    width: 50%;
+}
+.banner-img-items{
+    margin-left: 130px;
+}
+
+
+.banner-img-items .burger img{
+    width: 200px;
+    height: 120px;
+}
+
+.banner-img-items .combo img{
+    width: 200px;
+    height: 120px;
+}
+
+.banner-img-items .pizza img{
+    width: 200px;
+    height: 120px;
+}
+
+.banner-img-items .cake img{
+    width: 200px;
+    height: 120px;
+}
+
+.burger-and-combo{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 50px;
+    margin-bottom: 15px;
+}
+
+.burger-and-combo .burger{
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px 1px gray;
+    padding: 15px;
+}
+
+.burger-and-combo .combo{
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px 1px gray;
+    padding: 15px;
+}
+
+.pizza-and-cake{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.pizza-and-cake .pizza{
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px 1px gray;
+    padding: 15px;
+}
+
+.pizza-and-cake .cake{
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px 1px gray;
+    padding: 15px;
+}
+
+.burger-and-combo .burger h3, p{
+    text-align: center;
+}
+
+.burger-and-combo .combo h3, p{
+    text-align: center;
+}
+
+.pizza-and-cake .pizza h3, p{
+    text-align: center;
+}
+
+.pizza-and-cake .cake h3, p{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner-items{
+        flex-direction: column;
+    }
+
+    .banner-title button{
+        flex-direction: row;
+    }
+
+    .burger-and-combo{
+        flex-direction: column;
+        width: 200px;
+    }
+
+    .pizza-and-cake{
+        flex-direction: column;
+        width: 200px;
+    }
+}
